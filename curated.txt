@@ -1,0 +1,17 @@
+ab,no
+abba,noon
+ant,nag
+bar,one
+barf,ones
+be,or
+clerk,pyrex
+cub,pho
+envy,rail
+flap,sync
+frag,sent
+fur,she
+gel,try
+gnat,tang
+green,terra
+grr,tee
+mmm,zzz
