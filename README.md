@@ -14,8 +14,8 @@ she be clerk?
 
 Not the most interetsing results. But now we know!
 
-The entire program will produce all word pairs, but here's a curated
-sample list:
+The entire program will produce all word pairs. See `[out.txt](out.txt)` for
+full results. Here's a curated sample list.
 
 ```
 ab,no
