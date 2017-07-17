@@ -1,30 +1,38 @@
-# renobet
+# ROT-13 Explorer
+This program goes through a Scrabble dictionary and searches for
+words that end up as other words after they've gone through ROT-13
+encoding. 
 
-What if English ridded itself of redundancy? Here we explore the ramifications of eliminating
-the letters `c`, `q` and `x` from the English alphabet completely. We replace them as follows
-
-```
-c => k
-k => k
-q => k
-s => s
-xo => ho
-x => ks
-```
-
-## Interesting Results
-
-Here are words that went through the most transformations. `quixotic` becomes `kuihotik`, and
-is a perfect word to describe efforts carrything this project any further.
+The goal is to make ROT-13 ambigious phrases that have meaning
+no matter which side of ROT-13 they're on. The best phrase I've
+came up with is:
 
 ```
-exchequer => ekskhekuer 3
-exchequers => ekskhekuers 3
-exotoxic => ehotoksik 3
-quincunx => kuinkunks 3
-quincunxes => kuinkunkses 3
-quincunxial => kuinkunksial 3
-quixotic => kuihotik 3
-quixotical => kuihotikal 3
-quixotically => kuihotikally 3
+fur or pyrex?
+she be clerk?
+```
+
+Not the most interetsing results. But now we know!
+
+The entire program will produce all word pairs, but here's a curated
+sample list:
+
+```
+ab,no
+abba,noon
+ant,nag
+bar,one
+barf,ones
+be,or
+clerk,pyrex
+cub,pho
+envy,rail
+flap,sync
+frag,sent
+fur,she
+gel,try
+gnat,tang
+green,terra
+grr,tee
+mmm,zzz
 ```
